@@ -14,16 +14,16 @@ The dataset contains information about a student's:
 •	Chance of Admission (What We're Trying to Predict)
 
 Importing following libraries
-import numpy as np
-import pandas as pd
-#import os
-from matplotlib import pyplot as plt
-from sklearn import preprocessing
-from sklearn.preprocessing import StandardScaler
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.tree import DecisionTreeRegressor
-from sklearn.ensemble import RandomForestRegressor
-import seaborn as sns
+1.import numpy as np
+2.import pandas as pd
+3.#import os
+4.from matplotlib import pyplot as plt
+5.from sklearn import preprocessing
+6.from sklearn.preprocessing import StandardScaler
+7.from sklearn.model_selection import train_test_split
+8.from sklearn.linear_model import LinearRegression
+9.from sklearn.tree import DecisionTreeRegressor
+10.from sklearn.ensemble import RandomForestRegressor
+11.import seaborn as sns
 
 We have used Random Forest algorithm because it gives more accuracy then Linear Regression and Decision Tree. Accuracy of this project is 82.62%
